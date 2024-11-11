@@ -26,4 +26,4 @@ connectDB()
 })
 
 
-app.use('/api/v1/url',shortnerRouter)
+app.use('/url',shortnerRouter)
