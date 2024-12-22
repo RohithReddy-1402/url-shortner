@@ -7,7 +7,7 @@ const PORT=8001;
 const cors=require("cors")
 app.use(cors());
 app.use(express.static("public"));
-connectMongoDB('mongodb://localhost:27017/short-url')
+connectMongoDB('mongodb+srv://Rohith:Rohith_14_IM_@url-short.9jbbv.mongodb.net/')
 .then(()=>console.log("mongo DB is connected"));
 app.use(express.json());
 
